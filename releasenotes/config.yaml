@@ -1,0 +1,42 @@
+---
+default_branch: main
+release_tag_re: ((?:v?[\d.ab]|rc)+)
+collapse_pre_releases: true
+template: |
+          # Each section from every release note are combined when the
+          # CHANGELOG.rst is rendered. So the text needs to be worded so that
+          # it does not depend on any information only available in another
+          # section. This may mean repeating some details, but each section
+          # must be readable independently of the other.
+          #
+          # Each section note must be formatted as reStructuredText.
+          ---
+          features:
+            - |
+              List new features here, or remove this section.
+          enhancements:
+            - |
+              List enhancements (new behavior that is too small to be
+              considered a new feature), or remove this section.
+          issues:
+            - |
+              List known issues here, or remove this section.
+          security:
+            - |
+              Add security notes here, or remove this section.
+          fixes:
+            - |
+              Add normal bug fixes here, or remove this section.
+          other:
+            - |
+              Add here every other information you want in the CHANGELOG that
+              don't fit in any other section. This section should rarely be
+              used.
+sections:
+  # The prelude section is implicitly included.
+  - [features, New Features]
+  - [enhancements, Enhancement Notes]
+  - [issues, Known Issues]
+  - [security, Security Notes]
+  - [fixes, Bug Fixes]
+  - [other, Other Notes]
