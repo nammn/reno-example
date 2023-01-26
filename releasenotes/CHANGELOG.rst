@@ -2,12 +2,26 @@
 Release Notes
 =============
 
-.. _Release Notes_v1.0.0-2:
+.. _Release Notes_v1.0.1:
 
-v1.0.0-2
-========
+v1.0.1
+======
 
-.. _Release Notes_v1.0.0-2_Bug Fixes:
+.. _Release Notes_v1.0.1_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/feature-1-9e3fd7a55922d88b.yaml @ b'ea6e82ae7c663705fe65734ff5743fbe685b1556'
+
+- This was feature 1
+
+.. releasenotes/notes/feature-2-ba94315bfe6b91d7.yaml @ b'd926d44aebdbbc0e2131c918bffbf8eb912b0dd6'
+
+- Feature 2
+
+
+.. _Release Notes_v1.0.1_Bug Fixes:
 
 Bug Fixes
 ---------
