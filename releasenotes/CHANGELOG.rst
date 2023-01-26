@@ -2,6 +2,25 @@
 Release Notes
 =============
 
+.. _Release Notes_v1.0.2:
+
+v1.0.2
+======
+
+.. _Release Notes_v1.0.2_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/feature-3-6d088417d16cc521.yaml @ b'4596769a2cbb4b9a22e30bd202e55f3d25ad452f'
+
+- feat 4
+
+.. releasenotes/notes/feature-5-c370e33cbf5cd135.yaml @ b'995807c1179a931e200653319fcd5e7a7081112f'
+
+- feat 5
+
+
 .. _Release Notes_v1.0.1:
 
 v1.0.1
